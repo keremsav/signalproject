@@ -20,5 +20,5 @@ class DCMotorPlant:
     def get_measurement(self):
         return self.x[0] + np.random.normal(0, np.sqrt(self.R))
 
-    def get_true_state(self):
+    def get_true_kerem(self):
         return self.x.copy()
